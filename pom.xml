@@ -96,6 +96,7 @@
 			</plugin>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.2</version>
 				<configuration>
 					<source>1.5</source>
 					<target>1.5</target>
@@ -108,6 +109,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
+				<version>2.1.2</version>
 				<executions>
 					<execution>
 						<goals>
@@ -120,6 +122,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.7</version>
 				<configuration>
 					<argLine>-enableassertions</argLine>
 					<forkMode>always</forkMode>
