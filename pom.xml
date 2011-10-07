@@ -73,7 +73,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		
 		<!-- repository dependencies -->
-		<github.projectOwner>frontlinesms-credit</github.projectOwner>
+		<github.projectOwner>FrontlineSMS-Credit</github.projectOwner>
 		<github.projectName>${project.artifactId}</github.projectName>
 
 		<thinlet.version>1.00.05-SNAPSHOT</thinlet.version>
