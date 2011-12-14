@@ -268,7 +268,7 @@
 		<dependency>
 			<groupId>net.frontlinesms.core</groupId>
 			<artifactId>frontlinesms-test</artifactId>
-			<version>0.01.01</version>
+			<version>0.01.02-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
