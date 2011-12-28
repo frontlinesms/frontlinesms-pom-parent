@@ -3,7 +3,7 @@
 	<groupId>net.frontlinesms.core</groupId>
 	<artifactId>frontlinesms-pom-parent</artifactId>
 	<name>frontlinesms POM parent</name>
-	<version>1.7.00-beta-6-SNAPSHOT</version>
+	<version>1.7.00-beta-7-SNAPSHOT</version>
 	<description>Parent POM for inheritance by POMs in FrontlineSMS core, dist, plugins etc.</description>
 	<packaging>pom</packaging>
 	<licenses>
@@ -77,7 +77,7 @@
 		<github.projectName>${project.artifactId}</github.projectName>
 
 		<thinlet.version>1.00.05-SNAPSHOT</thinlet.version>
-		<smslib.version>1.1.0-SNAPSHOT</smslib.version>
+		<smslib.version>1.1.1-SNAPSHOT</smslib.version>
 		<f.email.version>0.00.05</f.email.version>
 		<f.mms.version>0.00.09</f.mms.version>
 		<log4j.version>1.2.15</log4j.version>
@@ -233,9 +233,9 @@
 				<version>${log4j.version}</version>
 			</dependency>
 			<dependency>
-			    <groupId>org.slf4j</groupId>
-			    <artifactId>slf4j-log4j12</artifactId>
-			    <version>1.5.2</version>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-log4j12</artifactId>
+				<version>1.5.2</version>
 			</dependency>
 			<dependency>
 				<groupId>javax.mail</groupId>
