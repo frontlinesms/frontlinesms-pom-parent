@@ -261,6 +261,13 @@
 				<groupId>net.frontlinesms.core</groupId>
 				<artifactId>frontlinesms-test</artifactId>
 				<version>0.01.02-SNAPSHOT</version>
+				<scope>test</scope>
+			</dependency>
+			<dependency>
+				<groupId>net.frontlinesms.test</groupId>
+				<artifactId>frontlinesms-plugins-test</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+				<scope>test</scope>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
@@ -270,7 +277,6 @@
 		<dependency>
 			<groupId>net.frontlinesms.core</groupId>
 			<artifactId>frontlinesms-test</artifactId>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 </project>
