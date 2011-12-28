@@ -257,6 +257,11 @@
 				<artifactId>spring-aop</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>net.frontlinesms.core</groupId>
+				<artifactId>frontlinesms-test</artifactId>
+				<version>0.01.02-SNAPSHOT</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -265,7 +270,6 @@
 		<dependency>
 			<groupId>net.frontlinesms.core</groupId>
 			<artifactId>frontlinesms-test</artifactId>
-			<version>0.01.02-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
