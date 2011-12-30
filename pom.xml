@@ -76,7 +76,7 @@
 		<github.projectOwner>frontlinesms</github.projectOwner>
 		<github.projectName>${project.artifactId}</github.projectName>
 
-		<thinlet.version>1.00.05-SNAPSHOT</thinlet.version>
+		<thinlet.version>1.0.6-SNAPSHOT</thinlet.version>
 		<smslib.version>1.1.1-SNAPSHOT</smslib.version>
 		<f.email.version>0.00.05</f.email.version>
 		<f.mms.version>0.00.09</f.mms.version>
@@ -257,10 +257,12 @@
 				<artifactId>spring-aop</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
+			
+			<!-- TEST dependencies -->
 			<dependency>
-				<groupId>net.frontlinesms.core</groupId>
+				<groupId>net.frontlinesms.test</groupId>
 				<artifactId>frontlinesms-test</artifactId>
-				<version>0.01.02-SNAPSHOT</version>
+				<version>0.1.2-SNAPSHOT</version>
 				<scope>test</scope>
 			</dependency>
 			<dependency>
@@ -271,12 +273,4 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
-	<dependencies>
-		<!-- Test Dependencies -->
-		<dependency>
-			<groupId>net.frontlinesms.core</groupId>
-			<artifactId>frontlinesms-test</artifactId>
-		</dependency>
-	</dependencies>
 </project>
