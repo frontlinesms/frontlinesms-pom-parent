@@ -76,7 +76,7 @@
 		<github.projectOwner>frontlinesms</github.projectOwner>
 		<github.projectName>${project.artifactId}</github.projectName>
 
-		<thinlet.version>1.0.6-SNAPSHOT</thinlet.version>
+		<thinlet.version>1.0.6</thinlet.version>
 		<smslib.version>1.1.1</smslib.version>
 		<f.email.version>0.00.05</f.email.version>
 		<f.mms.version>0.00.09</f.mms.version>
@@ -268,7 +268,7 @@
 			<dependency>
 				<groupId>net.frontlinesms.test</groupId>
 				<artifactId>frontlinesms-plugins-test</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<version>0.0.1</version>
 				<scope>test</scope>
 			</dependency>
 		</dependencies>
