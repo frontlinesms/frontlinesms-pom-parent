@@ -76,7 +76,7 @@
 		<github.projectOwner>frontlinesms</github.projectOwner>
 		<github.projectName>${project.artifactId}</github.projectName>
 
-		<thinlet.version>1.0.7-SNAPSHOT</thinlet.version>
+		<thinlet.version>1.0.7</thinlet.version>
 		<smslib.version>1.1.1</smslib.version>
 		<f.email.version>0.00.05</f.email.version>
 		<f.mms.version>0.00.09</f.mms.version>
