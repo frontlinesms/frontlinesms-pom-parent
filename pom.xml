@@ -116,6 +116,18 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -262,13 +274,13 @@
 			<dependency>
 				<groupId>net.frontlinesms.test</groupId>
 				<artifactId>frontlinesms-test</artifactId>
-				<version>0.1.4-SNAPSHOT</version>
+				<version>0.1.4</version>
 				<scope>test</scope>
 			</dependency>
 			<dependency>
 				<groupId>net.frontlinesms.test</groupId>
 				<artifactId>frontlinesms-plugins-test</artifactId>
-				<version>0.0.3-SNAPSHOT</version>
+				<version>0.0.3</version>
 				<scope>test</scope>
 			</dependency>
 		</dependencies>
