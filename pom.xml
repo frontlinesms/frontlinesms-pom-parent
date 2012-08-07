@@ -34,8 +34,8 @@
 	</licenses>
 	
 	<scm>
-		<connection>scm:git://github.com/${github.projectOwner}/${github.projectName}.git</connection>
-		<developerConnection>scm:git:git@github.com:${github.projectOwner}/${github.projectName}.git</developerConnection>
+		<connection>scm:git://github.com/frontlinesms/frontlinesms-pom-parent.git</connection>
+		<developerConnection>scm:git:git@github.com:frontlinesms/frontlinesms-pom-parent.git</developerConnection>
 	</scm>
 	
 	<repositories>
